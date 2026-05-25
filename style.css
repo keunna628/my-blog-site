@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+body {
+  background: black;
+}
+
+h1 {
+  color: pink;
+}
+  header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding-top: 15px;
+   
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+.links{
+  display:flex;
+  gap:45px;
+}
+
+.links a{
+  text-decoration:none;
+  color:white;
+  font-family:'Allison', cursive;
+  font-size:35px;
+  transition:0.3s;
+  position:relative;
+  top:-7px;
+  
+}
+
+/* hover */
+.links a:hover{
+  color:#ff5ca8;
+  
+}
+
+/* active page */
+.links a.active{
+  color:#ff5ca8;
+}
+
+/* underline */
+.links a.active::after{
+  content:'';
+  position:absolute;
+  width:100%;
+  height:1px;
+  background:#ff5ca8;
+  left:0;
+  bottom:7px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Allison', cursive;
+  font-size: 30px;
+}
+ .hero {
+  height: 500px;
+  background-image: url("https://assets.codepen.io/17445650/Untitled+2.pdf");
+  background-size: contain;
+   background-repeat: no-repeat;
+  background-position: center;
+  margin-top:-15px;
+}
+
+h2 {
+  color: white;
+  font-size: 50px;
+  font-style: italic;
+}
+.logo {
+  width: 220px;
+lcenter;
+  margin-bottom: 20px;
+  margin-top: -10px
+}
+
+.currently p {
+  margin-bottom: 35px;
+  font-size: 13px;
+}
+.main-content {
+  background: #f4f1f1;
+  display: grid;
+  grid-template-columns: 220px 1fr 220px;
+  gap: 40px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto
+}
+
+.Currently {
+  background: black;
+  color: white;
+  padding: 20px;
+}
+
+.journal-post {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.journal-post img {
+  width: 140px;
+  height:120px;
+}
+
+.notes img {
+  width: 100%;
+}
+.Currently h3 {
+  color: #ff8fc7;
+  font-family: 'Allison', cursive;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.currently p {
+  margin-bottom: 35px;
+  font-size: 13px;
+  
+  
+}
+
+.journal-section h2 {
+  font-size: 17px;
+  margin-bottom: 30px;
+  font-family: 'Special Elite', cursive;
+  padding: 0 40px;
+  color:black;
+ 
+}
+
+.journal-post h3 {
+  color: #d97aa6;
+  font-family: 'Allison', cursive;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+.journal-post {
+  border-top: 1px solid #e5b4c7;
+  padding-top: 20px;
+}
+  button {
+  width: 620px;
+  background: black;
+  color: white;
+  border: none;
+  padding: 15px;
+  margin: 20px auto;
+  display: block;
+  font-family: 'Special Elite', cursive;
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+footer {
+  background: black;
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: white;
+}
+
+.footer-quote {
+  font-family: 'Special Elite', cursive;
+  font-size: 14px;
+  line-height: 2;
+  max-width: 180px;
+}
+.ending-scribble {
+  width: 120px;
+  margin-top: -10px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Special Elite', cursive;
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+
+.footer-email h2 {
+  font-family: 'Allison', cursive;
+  font-size: 55px;
+  color: white;
+  margin: 0;
+}
+
+.footer-email p {
+  font-family: 'Special Elite', cursive;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.footer-email input {
+  width: 220px;
+  background: transparent;
+  border: 1px solid white;
+  padding: 5px;
+  color: white;
+}
+
+.footer-right p {
+  font-family: 'Allison', cursive;
+  font-size: 45px;
+  line-height: 1.3;
+  text-align: center;
+}
+  
+  ending-scribble {
+  width: 120px;
+  margin-top: -10px;
+
+}
+
+.copyright {
+  background: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+  margin: 0;
+  font-family: 'Special Elite', cursive;
+  font-size: 12px;
+}
+.footer-left {
+  position: relative;
+}
+
+.footer-scribble {
+  width: 90px;
+  position: absolute;
+  left: 40px;
+  bottom: -15px;
+}
+
+.footer-right {
+  position: relative;
+}
+
+.right-scribble {
+  width: 90px;
+  position: absolute;
+  bottom: -20px;
+  right: 40px;
+}
+.currently p,
+.journal-post p {
+  font-family: 'Special Elite' !important;
+}
